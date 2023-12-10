@@ -349,7 +349,9 @@ button, a { transition: var(--transition); }
   pointer-events: all;
 }
 
-
+.logo-container p{
+  color: black;
+}
 
 
 
