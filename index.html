@@ -36,55 +36,66 @@
     - #HEADER
   -->
 
-  <header class="header" data-header>
-    <div class="container">
+    <header class="header" data-header>
+      <div class="container">
+        <div class="overlay" data-overlay></div>
 
-      <div class="overlay" data-overlay></div>
+        <div class="logo-container">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/car-logo.png" alt="Ridex logo" />
+          </a>
+          <a href="index.html"><p class="logo-text">Analytica</p></a>
+        </div>
 
-      <div class="logo-container">
-        <a href="index.html" class="logo">
-          <img src="./assets/images/car-logo.png" alt="Ridex logo">
-        </a>
-        <a href="index.html"><p class="logo-text">Analytica</p></a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+            </li>
+            <li>
+              <a href="brands.html" class="navbar-link" data-nav-link>Brands</a>
+            </li>
+            <li>
+              <a href="services.html" class="navbar-link" data-nav-link
+                >Services</a
+              >
+            </li>
+            <li>
+              <a href="about.html" class="navbar-link" data-nav-link
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" class="navbar-link" data-nav-link
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a href="brands.html" class="btn" aria-labelledby="aria-label-txt">
+            <ion-icon name="car-outline"></ion-icon>
+
+            <span id="aria-label-txt">Explore cars</span>
+          </a>
+
+          <a href="contact.html" class="btn user-btn" aria-label="Profile">
+            <ion-icon name="person-outline"></ion-icon>
+          </a>
+
+          <button
+            class="nav-toggle-btn"
+            data-nav-toggle-btn
+            aria-label="Toggle Menu"
+          >
+            <span class="one"></span>
+            <span class="two"></span>
+            <span class="three"></span>
+          </button>
+        </div>
       </div>
-
-      <nav class="navbar" data-navbar>
-        <ul class="navbar-list">
-
-          <li><a href="index.html" class="navbar-link" data-nav-link>Home</a></li>
-          <li><a href="brands.html" class="navbar-link" data-nav-link>Brands</a></li>
-          <li><a href="services.html" class="navbar-link" data-nav-link>Services</a></li>
-          <li><a href="about.html" class="navbar-link" data-nav-link>About Us</a></li>
-          <li><a href="contact.html" class="navbar-link" data-nav-link>Contact</a></li>
-
-        </ul>
-      </nav>
-
-      <div class="header-actions">
-
-        <a href="brands.html" class="btn" aria-labelledby="aria-label-txt">
-          <ion-icon name="car-outline"></ion-icon>
-
-          <span id="aria-label-txt">Explore cars</span>
-        </a>
-
-        <a href="contact.html" class="btn user-btn" aria-label="Profile">
-          <ion-icon name="person-outline"></ion-icon>
-        </a>
-
-        <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
-          <span class="one"></span>
-          <span class="two"></span>
-          <span class="three"></span>
-        </button>
-
-      </div>
-
-    </div>
-  </header>
-
-
-
+    </header>
 
     <main>
       <article>
@@ -185,8 +196,17 @@
                       <h3 class="h3 card-title">
                         <a href="#">Toyota</a>
                       </h3>
-
-                      <button class="btn">See Details</button>
+                      <div class="card-price-wrapper">
+                        <!-- <p class="card-price"><strong>$440</strong> / month</p>
+  
+                        <button
+                          class="btn fav-btn"
+                          aria-label="Add to favourite list"
+                        >
+                          <ion-icon name="heart-outline"></ion-icon> -->
+                          <button class="btn">See Details</button>
+                        </button>
+                      </div>
                     </div>
 
                     <ul class="card-list">
@@ -215,16 +235,7 @@
                       </li>
                     </ul>
 
-                    <!-- <div class="card-price-wrapper">
-                      <p class="card-price"><strong>$440</strong> / month</p>
-
-                      <button
-                        class="btn fav-btn"
-                        aria-label="Add to favourite list"
-                      >
-                        <ion-icon name="heart-outline"></ion-icon>
-                      </button>
-                    </div> -->
+                  
                   </div>
                 </div>
               </li>
@@ -247,8 +258,18 @@
                       <h3 class="h3 card-title">
                         <a href="#">BMW</a>
                       </h3>
-
-                      <button class="btn">See Details</button>
+                      <div class="card-price-wrapper">
+                        <button class="btn">See Details</button>
+                        <!-- <p class="card-price"><strong>$350</strong> / month</p>
+  
+                        <button
+                          class="btn fav-btn"
+                          aria-label="Add to favourite list"
+                        >
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button> -->
+                      </div>
+                      
                     </div>
 
                     <ul class="card-list">
@@ -277,16 +298,7 @@
                       </li>
                     </ul>
 
-                    <!-- <div class="card-price-wrapper">
-                      <p class="card-price"><strong>$350</strong> / month</p>
-
-                      <button
-                        class="btn fav-btn"
-                        aria-label="Add to favourite list"
-                      >
-                        <ion-icon name="heart-outline"></ion-icon>
-                      </button>
-                    </div> -->
+                    
                   </div>
                 </div>
               </li>
@@ -309,8 +321,18 @@
                       <h3 class="h3 card-title">
                         <a href="#">Audi</a>
                       </h3>
-
-                      <button class="btn">See Details</button>
+                      <div class="card-price-wrapper">
+                        <button class="btn">See Details</button>
+                        <!-- <p class="card-price"><strong>$400</strong> / month</p>
+  
+                        <button
+                          class="btn fav-btn"
+                          aria-label="Add to favourite list"
+                        >
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button> -->
+                      </div>
+                      
                     </div>
 
                     <ul class="card-list">
@@ -339,16 +361,7 @@
                       </li>
                     </ul>
 
-                    <!-- <div class="card-price-wrapper">
-                      <p class="card-price"><strong>$400</strong> / month</p>
-
-                      <button
-                        class="btn fav-btn"
-                        aria-label="Add to favourite list"
-                      >
-                        <ion-icon name="heart-outline"></ion-icon>
-                      </button>
-                    </div> -->
+                  
                   </div>
                 </div>
               </li>
