@@ -1211,3 +1211,9 @@ button, a { transition: var(--transition); }
   .footer-list:last-of-type { width: 33.33%; }
 
 }
+
+/* ######################brandsPage See Details##################### */
+
+.ToyotaPage{
+  margin: 100px;
+}
