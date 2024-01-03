@@ -172,3 +172,8 @@ textarea.form-control {
         margin-bottom: 20px;
     }
 }
+
+.logo-container p{
+    color: black;
+    margin-top: 20px;
+  }

@@ -230,7 +230,17 @@ button, a { transition: var(--transition); }
 .w-100 { width: 100%; }
 
 
-
+/* responsivness */
+@media screen and (max-width: 480px) {
+  .logo {
+    display: none; 
+  }
+}
+@media screen and (max-width: 300px) {
+  .btn {
+    display: none; 
+  }
+}
 
 
 /*-----------------------------------*\
@@ -781,7 +791,11 @@ button, a { transition: var(--transition); }
   row-gap: 50px;
 }
 
-.footer-top .logo { margin-bottom: 20px; }
+.footer-top .logo { 
+  margin-bottom: 20px;
+  color: rgba(13, 6, 51, 0.89);
+  font-weight: bolder;
+ }
 
 .footer-text {
   font-size: var(--fs-6);
