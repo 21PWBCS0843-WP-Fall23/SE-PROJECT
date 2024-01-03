@@ -95,7 +95,6 @@ html {
   vertical-align: middle;
   display: inline-block;
   margin-bottom: 58px;
-  
 }
 
 h1,
@@ -204,7 +203,7 @@ a {
   top: 0px;
   right: 0px;
   height: 783px;
-  background-image: url("/assets/images/toyota.jpg");
+  background-image: url("../assets/images/toyota.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -344,7 +343,6 @@ a {
   text-align: left;
   background-color: whitesmoke;
   border-radius: 3%;
-  
 }
 
 .content-blurb-section.paddingright {
